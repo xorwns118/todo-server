@@ -39,3 +39,102 @@
 #### Framework : SpringBoot, Junit5
 
 #### DBTest : PostMan, h2database
+
+
+## IntelliJ 단축키 (이건 그냥 유용할 것 같음)
+
+코드 자동완성 - `cmd + space`
+
+스마트 자동완성 - `cmd + shift + space`
+
+오류 해결 제안 - `option + enter`
+
+라인 복사 - `cmd + D`
+
+라인 삭제 - `cmd + delete`
+
+이름 일괄 변경 - `shift + F6(fn)`
+
+import 최적화 - `ctrl + option + O`
+
+라이브 템플릿 - `cmd + J` ( 사용자 정의 - Settings/Preferences > Editor > Live Templetes
+
+주석 처리 - `cmd + /`
+
+여러줄 - `cmd + alt + /`
+
+자바독 - `/** 작성후 Enter`
+- @author 클래스나 인터페이스의 작성자를 지정
+- @version 클래스나 인터페이스의 버전 지정
+- @param 메서드의 매개변수에 대한 설명
+- @return 메서드의 반환 값에 대한 설명
+- @throws/@exception 메서드가 발생 시킬 수 있는 예외
+- @deprecated 더 이상 사용되지 않는 클래스나 메서드에 대한 경고
+
+  
+파일 검색 - `cmd + shift + O`
+
+클래스 검색 - `cmd + O`
+
+메서드 및 기호 검색 (심볼) - `cmd + alt + O`
+
+전체 검색 / 범위 검색 - `cmd + shift + F`
+
+현재 파일에서 검색 - `cmd + F`
+
+현재 결과로 이동 - `cmd + G`
+
+현재 파일에서 찾기 및 바꾸기 - `cmd + R`
+
+전체에서 찾기 및 바꾸기 - `cmd + shift + R`
+
+프로젝트 내에서 원하는 모든 것을 검색 - `shift 2번`
+
+코드 탐색 
+- 선언 위치로 이동 - `cmd + B`
+- 구현 위치로 이동 - `cmd + alt + B`
+- 클래스 계층 구조 (클래스 및 인터페이스 간의 상속 관계 표시) - `ctrl + H`
+- 메서드 계층 구조 (메서드 오버라이딩 및 인터페이스 구현간의 관계 표시)
+
+  
+코드 생성 - `cmd + N`
+- 자주 사용되는 코드 패턴이나 구조를 빠르게 작성할 수 있도록 도와주는 기능
+- Getter / Setter 생성
+- 생성자 생성
+- 오버라이딩 메서드 생성
+- 델리게이션 메서드 생성
+- 테스트 코드 생성
+
+코드 정리 - `cmd + alt + L`
+- 코드를 자동으로 정리하고 포멧팅하여 가독성을 높이고 일관된 스타일 유지
+- 현재 파일 코드 정리 / 선택 영역 코드 정리
+
+프로젝트 전체 코드 정리
+- Code > Reformat Code
+
+
+코드 스타일 설정 
+- IntelliJ IDEA > Prefences
+
+실행 - `ctrl + R`
+
+브레이크 포인트 확인 - `cmd + shift + F8(fn)`
+
+디버깅 모드로 실행 (`Run > Debug`) - `ctrl + D`
+
+단계별 실행 
+- Step over 다음 라인으로 이동 - `F8(fn)`
+- Step into 현재 라인의 메서드나 함수로 진입 - `F7(fn)`
+- Step out 현재 메서드나 함수에서 빠져나와 호출자로 넘어감 - `shift + F8(fn)`
+
+Resume program ( 프로그램 계속 실행 ) - `cmd + alt + R`
+
+조건부 브레이크 포인트
+
+- 특정 조건이 만족될 때만 실행을 중지 시키는 브레이크포인트 설정
+- 브레이크 포인트 우클릭 > Edit Breakpoint > Condition 에 조건 작성
+
+Call Stack 검사
+- 현재 실행중인 메서드 콜 스택 확인
+- 디버거 창의 Frames 탭
+
